@@ -46,18 +46,54 @@ namespace FileForceDeleter
         private void AddFileLabel(string filePath)
         {
             var panel = new Panel { Width = flowLayoutPanelFiles.Width - 30, Height = 30 };
-            var label = new Label { Text = Path.GetFileName(filePath), Width = 300, AutoEllipsis = true };
-            var button = new Button { Text = "❌", Width = 30, Height = 25, Tag = filePath };
+
+            var label = new Label
+            {
+                Text = Path.GetFileName(filePath),
+                Width = 300,
+                AutoEllipsis = true,
+                Left = 5,
+                Top = 7
+            };
+
+            var button = new Button
+            {
+                Text = "❌",
+                Width = 30,
+                Height = 30,
+                Tag = filePath,
+                BackColor = SystemColors.Control,
+                FlatStyle = FlatStyle.Flat,
+                TextAlign = ContentAlignment.MiddleCenter,
+                ImageAlign = ContentAlignment.MiddleCenter,
+                UseVisualStyleBackColor = false // Optional: allows custom BackColor
+            };
+
+            button.Left = 310;
+
+            // Remove file on click
             button.Click += (s, e) =>
             {
                 var path = (string)((Button)s!).Tag!;
                 selectedFiles.Remove(path);
                 flowLayoutPanelFiles.Controls.Remove(panel);
             };
+
+            // Hover effects
+            button.MouseEnter += (s, e) =>
+            {
+                button.BackColor = Color.Tomato;
+                button.ForeColor = Color.White;
+            };
+
+            button.MouseLeave += (s, e) =>
+            {
+                button.BackColor = SystemColors.Control;
+                button.ForeColor = SystemColors.ControlText;
+            };
+
             panel.Controls.Add(label);
             panel.Controls.Add(button);
-            label.Left = 5;
-            button.Left = 310;
             flowLayoutPanelFiles.Controls.Add(panel);
         }
 

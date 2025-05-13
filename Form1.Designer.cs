@@ -68,6 +68,7 @@
             // flowLayoutPanelFiles
             // 
             flowLayoutPanelFiles.AutoScroll = true;
+            flowLayoutPanelFiles.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanelFiles.Location = new Point(12, 58);
             flowLayoutPanelFiles.Name = "flowLayoutPanelFiles";
             flowLayoutPanelFiles.Size = new Size(776, 364);
