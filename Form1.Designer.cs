@@ -79,11 +79,16 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(800, 485);
             Controls.Add(flowLayoutPanelFiles);
             Controls.Add(delete_btn);
             Controls.Add(browse_btn);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MdiChildrenMinimizedAnchorBottom = false;
+            MinimizeBox = false;
             Name = "forced_delete_file";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Forced delete file";

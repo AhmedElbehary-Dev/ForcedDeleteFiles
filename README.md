@@ -25,6 +25,22 @@ Ever been stuck trying to delete a DLL, EXE, or system temp file that's locked b
 
 ---
 
+## 🖥️ Screenshots
+
+### Desktop Shortcut icon
+![Desktop Shortcut icon](./assets/1.png)
+
+### Main Interface
+![Main Interface](./assets/2.png)
+
+### After Browersing
+![Can Remove File From Selected File](./assets/4.png)
+
+### After Deleting
+![Deletion Summary](./assets/screenshot2.png)
+
+---
+
 ## 🛠️ Built With
 
 | Tool / Library | Purpose                        |
