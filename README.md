@@ -62,21 +62,6 @@ Ever been stuck trying to delete a DLL, EXE, or system temp file that's locked b
 
 ---
 
-## ⚠️ Notes
-
-- Always **run the application as Administrator** to handle protected files.
-- Scheduled deletions require a **Windows reboot** to take effect.
-- Be careful deleting system-critical files — this tool doesn't validate their importance.
-
----
-
-## 🙌 Credits
-
-Created by a .NET backend developer focused on solving real-world file access issues.  
-Need a contributor or want to fork it? PRs welcome!
-
----
-
 ## 📄 License
 
 MIT — free to use, fork, and enhance.
