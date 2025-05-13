@@ -1,6 +1,6 @@
-# 🗑️ FileForceDeleter
+# 🗑️ ForcedFileDeleter
 
-**FileForceDeleter** is a lightweight Windows desktop application that allows you to force delete or schedule deletion of locked/in-use files — even from system-protected folders like `Program Files`.
+**ForcedFileDeleter** is a lightweight Windows desktop application that allows you to force delete or schedule deletion of locked/in-use files — even from system-protected folders like `Program Files`.
 
 ---
 
