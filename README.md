@@ -37,7 +37,7 @@ Ever been stuck trying to delete a DLL, EXE, or system temp file that's locked b
 ![Can Remove File From Selected File](./assets/4.png)
 
 ### After Deleting
-![Deletion Summary](./assets/screenshot2.png)
+![Deletion Summary](./assets/6.png)
 
 ---
 
