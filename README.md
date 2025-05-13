@@ -25,12 +25,6 @@ Ever been stuck trying to delete a DLL, EXE, or system temp file that's locked b
 
 ---
 
-## 🖥️ Screenshots
-
-*(Add screenshots here showing the main form, file list, and results summary popup)*
-
----
-
 ## 🛠️ Built With
 
 | Tool / Library | Purpose                        |
